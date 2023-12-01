@@ -1,56 +1,40 @@
-# Prediction of Electricity Consumption 
+#Power Usage Forecasting
+Acknowledgement
+I would like to express my sincere gratitude to my project guide, Dr. Ravi Shankar, Assistant Professor, Department of Electrical Engineering, National Institute of Technology, Patna, for his invaluable guidance, support, and encouragement throughout the completion of this project. I am also thankful to Dr. Rajib Kumar Mandal, Professor and Head of Department, Electrical Engineering, National Institute of Technology, Patna, for providing necessary information and guidance. Lastly, I extend my thanks to NIT Patna for providing this opportunity and to my group members for their cooperation in completing the project.
 
-Goal of this project is building a data model that predicts electricity consumption, located in the KWH field in the dataset.
-This dataset contains information of energy costs and usage for heating, cooling, appliances and other end uses, from a sample of housing units. <br>
-The dataset taken from [link](https://www.eia.gov/consumption/residential/data/2009/index.php?view=mic). <br>
-(Number of Rows: approx. 12000, <br>
-Number of Columns: approx. 940)
+Table of Contents
+Abstract
+Introduction
+Theory
+System Architecture
+Methodology
+Implementation and Algorithms
+Experiment Results
+Conclusion
+References
+Abstract
+The project focuses on forecasting power usage using machine learning techniques. Traditional methods for predicting power usage have limitations, and advancements in machine learning have enabled more accurate predictions. The report explores various machine learning techniques, including linear regression, K Nearest Neighbours, XGBOOST, random forest, and artificial neural networks, to forecast power usage. The K Nearest Neighbours model demonstrated the highest accuracy, achieving a 90.92% accuracy rate for predicting agricultural production.
 
-### Built with
+Introduction
+Electricity is becoming the primary energy source for homes, businesses, and transportation. Accurate power consumption forecasting is crucial for optimizing energy distribution and avoiding system overload. The project aims to create a machine learning-based method for forecasting power usage, addressing challenges such as data preprocessing, feature extraction, and model evaluation.
 
-* Google Colab
+Theory
+The report reviews machine learning techniques for load forecasting, emphasizing their significance in electricity supply management. Various machine learning methods, including decision trees, artificial neural networks, support vector machines, and ensemble methods, are discussed. The literature review provides insights into recent trends, such as incorporating meteorological data and using hybrid models.
 
-### Highlights
-* Random Forest Regressor <br>
+System Architecture
+System Architecture
 
-### Libraries used 
-* Pandas
-* Numpy
-* Matplotlib
-* Seaborn
-* Scikit-learn <br>
+Methodology
+The project involves obtaining historical electricity usage data, preprocessing the data to handle outliers and missing values, and extracting relevant features. Machine learning models, including linear regression, decision trees, random forests, and artificial neural networks, are trained and evaluated using performance metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Coefficient of Determination (R2).
 
+Implementation and Algorithms
+The implementation includes data preprocessing, decision tree, linear regression, random forest, and K Nearest Neighbors algorithms. Each algorithm is explained, and code snippets are provided for better understanding.
 
-### What is being done?
+Experiment Results
+The results of the experiments, including output visualizations and a comparison of R2 score, Mean Squared Error (MSE), and Mean Absolute Error (MAE) for different algorithms, are presented.
 
-1.   Data understanding <br>
-      * Data exploration
-2.   Data preparation <br>
-      *  One-Hot Encoding the categorical columns <br>
-      *  Handling NaN values <br>
-      *  Removing the unneacesary columns <br>
-      *  Assumptions and considerations: <br>
-      *   Columns starting with 'Z' are the imputation flags for other variables. So are to be removed as they will not contribute in the prediction.<br>
-      *   Columns with thermal unit other than KWH are assumend to be not helpful. Hence are removed. <br>
-      *   Columns which show the total consumptions of elements' electricity usage are redundant as the individual contributions by those elements are already present in the data. Hence are removed for avoiding data redundancy. <br>
-3.   Data Analysis <br>
-      * Finding the correlation of features with output variable and visualizing <br>
-4.   Random Forest Regressor <br>
-      *  Using GridSearchCV for selecting optimal hyperparameters for the model <br>
-      *  Choosing important features by calculating feature importances <br>
+Conclusion
+Forecasting electricity usage is vital for effective energy management. The K Nearest Neighbors algorithm demonstrated superior performance in this scenario, with an R2 score of 0.993. Continuous monitoring and updates are necessary to adapt to changes in consumer behavior and environmental conditions.
 
-## Conclusion <br>
-There are about 14 features from the entire dataset that are found to be contributing the most towards the consumption of electricity, and are found after several steps of data cleaning, processing and feature engineering. <br>
-Random Forest Regressor is giving fair output for prediction of the consumption in Kilo Watt Hour (KWH ) with R2 score of 0.875. With more data exploration and manipulation, more optimised prediction can be obtained.
-
-### Further Tasks <br>
-Other models such as Neural Networks can be used for the prediction. <br>
-The features can be dugged deep with more EDA and by using libraries such as FeatureSelector to further improve the model and working more on feature importance.
-
-### References <br>
-*  https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-*  https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/
-*  https://www.youtube.com/watch?v=ioXKxulmwVQ&t=0s
-*  https://towardsdatascience.com/a-feature-selection-tool-for-machine-learning-in-python-b64dd23710f0
-*  https://machinelearninghd.com/gridsearchcv-hyperparameter-tuning-sckit-learn-regression-classification/
-*  https://towardsdatascience.com/improving-random-forest-in-python-part-1-893916666cd
+References
+Include the references and sources mentioned in the report.
