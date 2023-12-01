@@ -42,11 +42,11 @@ Accurate power consumption forecasting is crucial for effective energy managemen
 ![Linear](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/26ba4dde-dd61-4f75-b4d4-89ca4801beca)
 
 <h3>Random Forest Algorithm </h3>
-![Screenshot 2023-12-01 104743](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/0ecec297-5398-4a2c-b4c1-fd2f23c91af4)
-
+![Screenshot 2023-12-01 031612](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/d1d7c06d-d51c-4c46-a573-09dfb1227b73)
 
 <h3>KNN Algorithm</h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/d878fabc-23ef-4e05-8994-96ba97f55941)
+![Screenshot 2023-12-01 104743](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/0188bcb7-815d-496f-b64e-0ec0b021c31d)
+
 
 <h2>References :</h2>
 1. A Review of Machine Learning Models for Forecasting Electricity Consumption
