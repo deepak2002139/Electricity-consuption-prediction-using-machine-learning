@@ -39,10 +39,11 @@ Accurate power consumption forecasting is crucial for effective energy managemen
 <h2>Results :</h2>
 
 <h3>Linear regression </h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/82674325-6f2e-41a4-a962-a06638ea9cc5)
+![Linear](https://github.com/deepak2002139/Electr![Screenshot 2023-12-01 031612](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/a5309912-77e7-4b6d-91bb-2f493f6ad2ca)
+icity-consuption-prediction-using-machine-learning/assets/99772696/b08cce85-cbb1-4bcc-8816-b0e8774bf3ff)
 
 <h3>Random Forest Algorithm </h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/52730380-9eda-4fd9-b18c-ffac9280facf)
+![Screenshot 2023-12-01 104743](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/0ecec297-5398-4a2c-b4c1-fd2f23c91af4)
 
 
 <h3>KNN Algorithm</h3>
