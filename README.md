@@ -1,10 +1,10 @@
-#Power Usage Forecasting
+<h1>Power Usage Forecasting</h1>
 
-Overview
+<h2>Overview</h2>
 
 This project focuses on leveraging machine learning techniques to forecast power usage, aiming to improve accuracy and efficiency in energy management. The implementation involves the exploration of various algorithms, including linear regression, decision trees, random forests, and K Nearest Neighbors (KNN). The key findings indicate that the KNN algorithm outperformed others, achieving a remarkable 90.92% accuracy rate in predicting agricultural production.
 
-Table of Contents
+<h2>Table of Contents</h2>
 Acknowledgement
 Abstract
 Introduction
@@ -15,36 +15,39 @@ Implementation and Algorithms
 Experiment Results
 Conclusion
 References
-Acknowledgement
+<h2>Acknowledgement</h2>
 I extend my sincere gratitude to my project guide, Dr. Ravi Shankar, and Dr. Rajib Kumar Mandal, for their unwavering support, guidance, and encouragement throughout the project. I am also thankful to NIT Patna for providing this opportunity and to my group members for their collaboration.
 
-Abstract
+<h2>Abstract</h2>
+
 This project explores machine learning methods to forecast power usage, addressing the limitations of traditional techniques. The report emphasizes the significance of accurate power consumption predictions in energy management and environmental sustainability. Notably, the KNN algorithm demonstrated exceptional accuracy, particularly in predicting agricultural production.
 
-Introduction
+<h2>Introduction</h2>
 As electricity becomes the primary energy source, accurate power consumption forecasting becomes crucial. The project seeks to develop a machine learning-based method to forecast power usage, considering factors such as seasonality, time of day, and weather conditions.
 
-Theory
+<h2>Theory</h2>
 Theoretical background on machine learning techniques for load forecasting is discussed. The literature review covers decision trees, artificial neural networks, support vector machines, and ensemble methods. Recent trends, including the incorporation of meteorological data and hybrid models, are explored.
 
-System Architecture
+<h2>System Architecture</h2>
 The system architecture is visually represented, showcasing the flow of data and processes involved in forecasting power usage.
 
 System Architecture
+![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/c6d9c052-c4f4-4939-84bf-d9b878e14c94)
 
-Methodology
+
+<h2>Methodology</h2>
 The project involves obtaining historical electricity usage data, preprocessing the data to handle outliers and missing values, and extracting relevant features. Various machine learning models are trained and evaluated, with a focus on performance metrics such as Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and Coefficient of Determination (R2).
 
-Implementation and Algorithms
+<h2>Implementation and Algorithms</h2>
 The implementation includes data preprocessing, decision tree, linear regression, random forest, and KNN algorithms. Detailed explanations and code snippets are provided for each algorithm, enhancing understanding and reproducibility.
 
-Experiment Results
+<h2>Experiment Results</h2>
 Results from experiments, including output visualizations and a comprehensive comparison of performance metrics for different algorithms, are presented.
 
-Conclusion
+<h2>Conclusion</h2>
 Accurate power consumption forecasting is crucial for effective energy management. The KNN algorithm emerged as the most suitable choice in this scenario, with an outstanding R2 score of 0.993. Continuous monitoring and updates are emphasized to adapt to changing variables.
 
-References
+<h2>References</h2>
 1. A Review of Machine Learning Models for Forecasting Electricity Consumption
 2. Jui-Sheng Chou, Duc-Son Tran, Forecasting energy consumption time series using
 machine learning techniques based on usage patterns of residential householders,
@@ -72,3 +75,14 @@ predicting power usage in a smart grid. 12, 703 Energy
 11. Y. Sri Lalitha, G. V. Reddy, K. Swapnika, et al., "Analysis of Customer Reviews using
 Deep Neural Network," International Conference on Artificial Intelligence Trends and
 Pattern Recognition (ICAITPR), 2022, pp. 1-5.
+
+<h2>Results :</h2>
+
+<h3>Linear regression </h3>
+![Screenshot 2023-12-01 103059](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/f68e824e-1a5b-4ec4-a998-207ed77eeb5e)
+
+<h3>Random Forest Algorithm </h3>
+![Screenshot 2023-12-01 031612](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/9c848563-bfde-4cc4-a3b9-1df79d48ac02)
+
+<h3>KNN Algorithm</h3>
+![Screenshot 2023-12-01 104743](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/7a17b686-67b8-4fd3-b228-ac7d84a22620)
