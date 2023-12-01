@@ -35,6 +35,19 @@ Results from experiments, including output visualizations and a comprehensive co
 <h2>Conclusion :</h2>
 Accurate power consumption forecasting is crucial for effective energy management. The KNN algorithm emerged as the most suitable choice in this scenario, with an outstanding R2 score of 0.993. Continuous monitoring and updates are emphasized to adapt to changing variables.
 
+
+<h2>Results :</h2>
+
+<h3>Linear regression </h3>
+![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/a4195722-02db-482c-8562-be6d7f1c041a)
+
+<h3>Random Forest Algorithm </h3>
+![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/d15ea28e-cad8-4080-a611-e0d15d5c6aa0)
+
+<h3>KNN Algorithm</h3>
+![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/2a7ca2c6-9463-4c3e-b5a8-f5b3295582bd)
+
+
 <h2>References :</h2>
 1. A Review of Machine Learning Models for Forecasting Electricity Consumption
 
@@ -73,14 +86,3 @@ predicting power usage in a smart grid. 12, 703 Energy
 11. Y. Sri Lalitha, G. V. Reddy, K. Swapnika, et al., "Analysis of Customer Reviews using
 Deep Neural Network," International Conference on Artificial Intelligence Trends and
 Pattern Recognition (ICAITPR), 2022, pp. 1-5.
-
-<h2>Results :</h2>
-
-<h3>Linear regression </h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/a4195722-02db-482c-8562-be6d7f1c041a)
-
-<h3>Random Forest Algorithm </h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/d15ea28e-cad8-4080-a611-e0d15d5c6aa0)
-
-<h3>KNN Algorithm</h3>
-![image](https://github.com/deepak2002139/Electricity-consuption-prediction-using-machine-learning/assets/99772696/2a7ca2c6-9463-4c3e-b5a8-f5b3295582bd)
